@@ -7,4 +7,14 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-price = int(input())
+price = int(input("ราคาสินค้ารวม: "))
+
+total:
+if price >= 2000
+print price-200
+elif price >= 1000
+print price-100
+else:
+print("ไม่ได้รับส่วนลด")
+
+print(f("ราคาสุทธิที่ต้องชำระ {total:.2f}บาท"))
